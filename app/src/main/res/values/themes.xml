@@ -1,8 +1,18 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.First_Android_App" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Base.Theme.First_Android_App" parent="Theme.MaterialComponents.DayNight">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryVariant">@color/my_color</item>
+        <item name="colorOnPrimary">@color/white</item> <!-- BUTTONS COLOR -->
+        <!-- Customize your Secondary light theme here. -->
+        <item name="colorSecondary">@color/my_color</item>  <!-- LINE UNDER THE EDIT TEXT -->
+        <item name="colorSecondaryVariant">@color/white</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+
+        <item name="android:statusBarColor" tools:targetApi="l">@color/my_color </item>
     </style>
 
     <style name="Theme.First_Android_App" parent="Base.Theme.First_Android_App" />

@@ -14,14 +14,14 @@
         android:id="@+id/editText1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="30dp"
+        android:layout_margin="10dp"
         android:hint="First Number " />
 
     <EditText
         android:id="@+id/editText2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="30dp"
+        android:layout_margin="10dp"
         android:hint="Second Number " />
 
 
@@ -32,37 +32,43 @@
 
         <Button
             android:id="@+id/addButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
             android:layout_margin="4dp"
             android:text="+"
             android:textSize="30dp"
-
+            android:backgroundTint="@color/my_color"
             />
 
         <Button
             android:id="@+id/subButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
             android:layout_margin="4dp"
             android:text="-"
-            android:textSize="30dp" />
+            android:textSize="30dp"
+            android:backgroundTint="@color/my_color"
+            />
 
         <Button
             android:id="@+id/mulButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
             android:layout_margin="4dp"
             android:text="x"
-            android:textSize="30dp" />
+            android:textSize="30dp"
+            android:backgroundTint="@color/my_color"
+            />
 
         <Button
             android:id="@+id/divButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
             android:layout_margin="4dp"
             android:text="/"
-            android:textSize="30dp" />
+            android:textSize="30dp"
+            android:backgroundTint="@color/my_color"
+            />
 
 
     </LinearLayout>
@@ -75,7 +81,8 @@
         android:layout_margin="50dp"
         android:gravity="center"
         android:text="Result  "
-        android:textSize="40dp" />
+        android:textSize="40dp"
+        android:textColor="@color/my_color"/>
 
 
 </LinearLayout>
